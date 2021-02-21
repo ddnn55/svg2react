@@ -4,9 +4,11 @@
   "version": "0.0.2",
   "author": "David Stolarsky @ddnn55",
   "bin": {
-    "svg2react": "./bin/run"
+    "svg2react": "bin/run"
   },
-  "bugs": "https://github.com/ddnn55/svg2react/issues",
+  "bugs": {
+    "url": "https://github.com/ddnn55/svg2react/issues"
+  },
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -35,7 +37,10 @@
   "oclif": {
     "bin": "svg2react"
   },
-  "repository": "ddnn55/svg2react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddnn55/svg2react.git"
+  },
   "scripts": {
     "posttest": "eslint .",
     "prepack": "oclif-dev readme",
