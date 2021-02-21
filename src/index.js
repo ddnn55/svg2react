@@ -24,9 +24,7 @@ export default ${componentName};
   }
 }
 
-Svg2ReactCommand.description = `Describe the command here
-...
-Extra documentation goes here
+Svg2ReactCommand.description = `Wrap an .svg file in a React Component and save as .js
 `
 
 Svg2ReactCommand.args = [
@@ -38,7 +36,6 @@ Svg2ReactCommand.flags = {
   version: flags.version({char: 'v'}),
   // add --help flag to show CLI version
   help: flags.help({char: 'h'}),
-  name: flags.string({char: 'n', description: 'name to print'}),
 }
 
 module.exports = Svg2ReactCommand
