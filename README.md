@@ -19,7 +19,7 @@ $ npm install -g svg2react
 $ svg2react COMMAND
 running command...
 $ svg2react (-v|--version|version)
-svg2react/0.0.0 darwin-x64 node-v10.23.1
+svg2react/0.0.1 darwin-x64 node-v10.23.1
 $ svg2react --help [COMMAND]
 USAGE
   $ svg2react COMMAND
