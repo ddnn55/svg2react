@@ -1,7 +1,7 @@
 {
   "name": "@ddnn55/svg2react",
   "description": "Wrap SVG in a React functional component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "David Stolarsky @ddnn55",
   "bin": {
     "svg2react": "./bin/run"
