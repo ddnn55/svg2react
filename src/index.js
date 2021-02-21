@@ -2,9 +2,9 @@ const {Command, flags} = require('@oclif/command')
 
 class Svg2ReactCommand extends Command {
   async run() {
-    const {flags} = this.parse(Svg2ReactCommand)
-    const name = flags.name || 'world'
-    this.log(`hello ${name} from ./src/index.js`)
+    const {args} = this.parse(Svg2ReactCommand)
+    const file = args.file;
+    this.log(`hello let's convert ${file} from ./src/index.js`)
   }
 }
 
@@ -12,6 +12,10 @@ Svg2ReactCommand.description = `Describe the command here
 ...
 Extra documentation goes here
 `
+
+Svg2ReactCommand.args = [
+  {name: 'file', required: true}
+];
 
 Svg2ReactCommand.flags = {
   // add --version flag to show CLI version
